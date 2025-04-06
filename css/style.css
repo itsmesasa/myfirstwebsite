@@ -1,0 +1,249 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial, "Helvetica, sans-serif";
+  line-height: 1.6;
+  color:#333;
+}
+.container{
+  width:90%;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.navbar{
+  background: url("/img/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg");
+  padding:1 em 0;
+}
+
+.navbar .container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.navbar .nav-links{
+  list-style: none;
+  display: flex;
+}
+.navbar .nav-links li{
+  margin-left: 1.5em;
+  color:red;
+}
+.navbar .nav-links a{
+  color:white;
+  text-decoration: none;
+  font-size:1em;
+  transition:color 0.3s ease;
+}
+.navbar .nav-links a:hover
+.navbar .nav-links a.active{
+  color:#FFD700;
+}
+
+.hero{
+  background: url("/img/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg") no-repeat center/cover;
+  padding: 5em 0;
+  color: #fff;
+  text-align: center;
+}
+
+
+.hero h1{
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.hero p{
+  font-size: 1.2em;
+}
+
+body {
+  background-image: url("/img/portrait-of-a-friendly-staff-working-at-a-restaurant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.about,
+.menu,
+.contact,
+.testimonials{
+  padding:3em 0;
+}
+
+.about h1,
+.menu h1,
+.contact h1,
+.testimonials h2{
+  text-align: center;
+  margin-bottom: 1em;
+  color:white;
+}
+
+.testimonials{
+  background-color:maroon;
+}
+.testimonials .testimonial{
+  margin-bottom:1.5em;
+  padding:1em;
+  border-left: 5px solid maroon;
+  background-color:white;
+}
+.testimonial .testimonials{
+  font-style: italic;
+}
+
+.testimonials .testimonial span{
+  display: block;
+  margin-top: 0.5em;
+  font-weight: bold;
+  text-align: right;
+  color:white;
+}
+
+body {
+  background-image: url("/img/IMG_20250403_215838.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.menu-section{
+  margin-bottom: 2em;
+}
+
+.menu-section h2{
+  border-bottom: 2px solid white;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+  color: white;
+}
+
+.menu-section ul{
+  list-style-type:none;
+}
+
+.menu-section li{
+  padding:1em;
+  border-bottom: 1px solid white;
+}
+
+.menu-section li:last-child{
+  border-bottom:none;
+}
+
+.menu-section .dish{
+  font-weight: bold;
+}
+
+.menu-section .price{
+  float:right;
+  color:white;
+}
+
+body {
+  background-image: url("/img/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.contact-details{
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.contact-form{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form label{
+  display:block;
+  margin-bottom:0.5em;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea{
+  width: 100%;
+  padding:0.75em;
+  margin-bottom:1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button{
+  display: inline-block;
+  background-color: white;
+  color: black;
+  border:none;
+  padding:0.75em 1.5em;
+  cursor:pointer;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover{
+  background-color:white;
+}
+
+footer{
+  background-color: #3333;
+  color:#fff;
+  text-align: center;
+  padding: 1em;
+}
+
+footer{
+  font-size:0.9em;
+}
+
+@media (max-width: 768px){
+.navbar .container{
+  flex-direction: column;
+}
+
+.navbar .nav-links{
+  flex-direction: column;
+  margin-top:1em;
+}
+
+.navbar .nav-links li{
+  margin:0.5em 0;
+}
+
+.hero h1{
+  font-size: 2em;
+}
+
+.hero p{
+  font-size: 1em;
+}
+}
+.about p{
+  color: white;
+}
+.contact .container{
+  color: white;
+}
+.contact-details{
+  color: white;
+}
+
+.contact-form{
+  color: white;
+}
