@@ -16,7 +16,7 @@ body{
 }
 
 .navbar{
-  background: url("/img/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg");
+  background: url("../img/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg");
   padding:1 em 0;
 }
 
@@ -51,7 +51,7 @@ body{
 }
 
 .hero{
-  background: url("/img/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg") no-repeat center/cover;
+  background: url("../img/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg") no-repeat center/cover;
   padding: 5em 0;
   color: #fff;
   text-align: center;
@@ -68,7 +68,7 @@ body{
 }
 
 body {
-  background-image: url("/img/portrait-of-a-friendly-staff-working-at-a-restaurant.jpg");
+  background-image: url("../img/portrait-of-a-friendly-staff-working-at-a-restaurant.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -113,7 +113,7 @@ body {
 }
 
 body {
-  background-image: url("/img/IMG_20250403_215838.jpg");
+  background-image: url("../img/IMG_20250403_215838.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -154,7 +154,7 @@ body {
 }
 
 body {
-  background-image: url("/img/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg");
+  background-image: url("../img/360_F_294263329_1IgvqNgDbhmQNgDxkhlW433uOFuIDar4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
